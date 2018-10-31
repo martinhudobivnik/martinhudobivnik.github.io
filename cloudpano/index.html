@@ -55,21 +55,23 @@
           </a>
         </div>
         <div class="div-block-13"><img src="images/TouchMove.png" width="150" alt="" class="tooltip">
-          <div id="headerScreen" class="screen">
-            <div class="w-embed w-script">
-              <canvas width="1354" height="764" class="panolens-canvas" style="width: 677px; height: 382px; display: block;"></canvas>
-              <script>var panorama, viewer;
+              <div id="headerScreen" class="screen">
+                <div class="w-embed w-script">
+                  <script>var panorama, viewer;
                     panorama = new PANOLENS.ImagePanorama('images/1.jpg');
                     viewer = new PANOLENS.Viewer({ container: document.querySelector('#headerScreen'), controlBar: false });
                     viewer.add(panorama);
-                    viewer.getControl().autoRotateSpeed = .1;
+                    viewer.getControl().autoRotateSpeed = .05;
                     viewer.getControl().autoRotate = true;
                     viewer.getControl().noZoom = true;
                     var width = document.getElementById("headerScreen").offsetWidth;
                     var height = document.getElementById("headerScreen").offsetHeight;
-                    viewer.onWindowResize(width, height);</script>
-              </div>
-          </div><img src="images/iphone-silver.png" width="877" srcset="images/iphone-silver-p-500.png 500w, images/iphone-silver-p-800.png 800w, images/iphone-silver-p-1080.png 1080w, images/iphone-silver-p-1600.png 1600w, images/iphone-silver.png 1754w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 93vw, 877px" alt="" class="image-5"></div>
+                    viewer.onWindowResize(width, height);
+                  </script>
+                  <canvas width="1354" height="764" class="panolens-canvas" style="width: 677px; height: 382px; display: block;"></canvas>
+                </div>
+              </div><img src="images/iphone-silver.png" width="877" srcset="images/iphone-silver-p-500.png 500w, images/iphone-silver-p-800.png 800w, images/iphone-silver-p-1080.png 1080w, images/iphone-silver-p-1600.png 1600w, images/iphone-silver.png 1754w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 93vw, 877px" alt="" class="image-5">
+        </div>
       </div>
     </div>
     <header id="About" class="about">
@@ -274,7 +276,7 @@
             <div class="text-block-10">I was very happy with the 3D Tour. I believe it will be very helpful now and in the future to ensure a quick sale on my listings.</div>
             <div class="text-block-11">Carole Hoffpauir</div>
             <div class="text-block-12">Realtor</div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
