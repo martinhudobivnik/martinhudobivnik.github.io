@@ -631,7 +631,7 @@
 
 .image-6 {
   position: absolute;
-  left: 11.4%;
+  left: 11.3%;
   top: 6.3%;
   z-index: 1;
   display: none;
@@ -1362,7 +1362,7 @@
 
 .screen {
   position: absolute;
-  left: 11.4%;
+  left: 11.3%;
   top: 6.3%;
   z-index: 1;
   height: 87.5%;
@@ -1542,7 +1542,7 @@
   }
   .image-6 {
     position: absolute;
-    left: 11.4%;
+    left: 11.3%;
     display: block;
     max-width: 77.2%;
   }
